@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey form</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="background">
+            <h1 id="title">Project Form</h1>
+            <p id="description">this is a simple survey to see your satisfaction on this project</p>
+            <div class="container">
+                <div id="div">
+                    <form id="survey-form">
+                        <label id="name-label">Name</label>
+                        <input class="input" id="name" type="text" required placeholder="Enter your name">
+                        <label id="email-label">Email</label>
+                        <input class="input" id="email" type="email" required placeholder="Enter your email">
+                        <label id="number-label">Age (optional)</label>
+                        <input class="input" id="number" type="number0" placeholder="Age" min="10" max="99">
+                        <label>Which option best describes your current role?</label>
+                        <Select class="input" id="dropdown" >
+                            <option value disabled selected>Choose Your Role</option>
+                            <option value="cat" >cat</option>
+                            <option value="dog">Dog</option>
+                            <option value="anit-cat">Anit-Cat</option>
+                            <option value="anti-dog">Anti-Dog</option>
+                        </Select>
+                        <label>Would you pet my cat</label>
+                        <br/>
+                        <input type="radio" name="cat"><label>yes</label><br>
+                        <input type="radio" name="cat"><label>no</label><br>
+                        <input type="radio" name="cat"><label>maybe</label><br>
+                        <br/>
+                        <label>Cats?</label>
+                        <br>
+                        <input type="checkbox" value="yes"><label>yes</label><br>
+                        <input type="checkbox" value="no"><label>no</label><br>
+                        <input type="checkbox" value="maybe"><label>maybe</label><br>
+                        <br/>
+                        <label>Any comments about pets</label>
+                        <br>
+                        <div>
+                        <textarea id="comment" placeholder="Enter a comment"></textarea>
+                        </div>
+                        <button id="submit"  type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

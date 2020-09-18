@@ -1,0 +1,79 @@
+body{
+    background: 
+    linear-gradient(#31164bbb, #31164bbb),
+    url(https://images.pexels.com/photos/935949/pexels-photo-935949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center;
+    font-family: sans-serif;
+    color: white;
+    height: 100%;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+}
+#description{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 30px;
+}
+.container{
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    background: rgba(52, 31, 170, 0.397);
+    border-radius: 5px;
+    overflow: auto;
+    max-width: 100%;
+    height: auto;
+}
+#div{
+    width: auto;
+    padding: 20px;
+   
+}
+label{
+    text-align: left;
+    font-size: 20px;
+    
+}
+select{
+    background-color: #fff;
+    width: 103%;
+    
+}
+select:first{
+    color: #999;
+}
+.input{
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px 0 10px 10px;
+    border: none;
+    border-radius: 5px;
+} 
+textarea {
+    text-align: left;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    resize: vertical;
+}
+datalist{
+ width: 100%;
+}
+button{
+    height: auto;
+    width: 101%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px 0 10px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
